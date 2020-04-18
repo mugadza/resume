@@ -1,0 +1,1 @@
+web: gunicorn adulting.wsgi --log-file -
