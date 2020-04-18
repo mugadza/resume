@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
-def home(request):
-    return HttpResponse('<h1>Project home<h1/>')
+def project_home(request):
+    return render(request, 'project/index.html')

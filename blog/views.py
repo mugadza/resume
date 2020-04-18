@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
-def home(request):
-    return HttpResponse('<h1>Blog home<h1/>')
+def blog_home(request):
+    return render(request, 'blog/index.html')

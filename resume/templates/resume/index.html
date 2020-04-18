@@ -1,5 +1,74 @@
-{% extends "base/application.html" %}
+{% extends "base/_application_navigation.html" %}
+{% load static %}
 
 {% block content %}
-    <h1>Resume home with template</h1>
+    <!-- ====== Header ======  -->
+    <header id="home" class="header demo-2" data-stellar-background-ratio="0.5">
+            <!-- header content -->
+            <div class="caption v-middle text-center">
+                <h6>Hi! My name is Tatenda Mugadza</h6>
+                <h1 class="typed">I am a<span></span></h1>
+                <button class="button btn-bord-light">Resume</button>
+                <button class="button btn-bord-light">Contact</button>
+            </div>
+            <div class="button-scroll" data-scrollTo="about"><span></span></div>
+    </header>
+    <!-- ====== End Header ======  -->
+
+    <!--====== Blocks ======-->
+    <section class="blocks section-padding">
+        <div class="container">
+            <div class="row">
+
+                <!-- blk-row -->
+                <div class="blk-row">
+                    <div class="col-md-7">
+
+                        <!-- blk-item -->
+                        <div class="blk-item">
+                            <h5>About Tatenda Mugadza</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper onsectetur adipiscing elit consectetur adipiscing elit. In maximus ligula semper.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper onsectetur adipiscing elit consectetur adipiscing elit. In maximus ligula semper.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper onsectetur adipiscing elit consectetur adipiscing elit. In maximus ligula semper.
+                            </p>
+
+                            <div class="col-md-6 sub-item">
+                                <span class="icon-tools"></span>
+                                <div class="sub-info">
+                                    <h6>Electronics</h6>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. In maximus ligula semper.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 sub-item">
+                                <span class="icon-mobile"></span>
+                                <div class="sub-info">
+                                    <h6>Software Engineering</h6>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. In maximus ligula semper.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button btn-bord-dark">View Projects</button>
+                        </div>
+                    </div>
+
+                    <!-- blk-img -->
+                    <div class="col-md-5">
+                        <div class="blk-img">
+                            <img src="{% static 'images/b1.jpg' %}" alt="image">
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--====== End Blocks ======-->
+
 {% endblock content %}
