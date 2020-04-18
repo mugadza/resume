@@ -678,7 +678,6 @@ Responsive Media Querries
 
 .serv-us{
 	background: rgba(0,0,0,.85);
-	/* background-image: url(../img/1.jpg); */
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% 0% !important;
@@ -750,7 +749,6 @@ Responsive Media Querries
 .process{
 	background-blend-mode: overlay;
 	background: rgba(0,0,0,.7);
-	/* background-image: url(../img/2.jpg); */
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -959,7 +957,6 @@ Responsive Media Querries
 }
 
 .portfolio-bg{
-	/* background-image: url(../img/portfolio-bg.jpg); */
 }
 
 /* -------------------------------------------------------
@@ -1060,7 +1057,6 @@ Responsive Media Querries
 .clients{
 	background-blend-mode: overlay;
 	background: rgba(0,0,0,.7);
-	background-image: url(../img/3.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -1201,7 +1197,6 @@ Responsive Media Querries
 .numbers{
 	background-blend-mode: overlay;
 	background: rgba(0,0,0,.7);
-	/* background-image: url(../img/2.jpg); */
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -1539,7 +1534,6 @@ footer .small-footer p{
 -------------------------------------------------------- */
 
 .demo-4{
-	/* background-image: url(../img/bg4.jpg); */
 }
 
 .demo-4 .owl-carousel,
@@ -1564,17 +1558,14 @@ footer .small-footer p{
 }
 
 .demo-5 .owl-carousel .slide-1{
-	/* background-image: url(../img/bg5); */
 	background-size: cover;
 }
 
 .demo-5 .owl-carousel .slide-2{
-	/* background-image: url(../img/bg-2.jpg); */
 	background-size: cover;
 }
 
 .demo-5 .owl-carousel .slide-3{
-	/* background-image: url(../img/bg-3.jpg); */
 	background-size: cover;
 }
 
@@ -1583,7 +1574,6 @@ footer .small-footer p{
 -------------------------------------------------------- */
 
 .demo-6{
-	/* background-image: url(../img/bg6.jpg); */
 }
 
 .demo-6 .vid{
@@ -1600,7 +1590,6 @@ footer .small-footer p{
 -------------------------------------------------------- */
 
 .demo-7{
-	/* background-image: url(../img/bg7.jpg); */
 }
 
 /* -------------------------------------------------------
@@ -1608,7 +1597,6 @@ footer .small-footer p{
 -------------------------------------------------------- */
 
 .demo-8{
-	/* background-image: url(../img/bg8.jpg); */
 }
 
 .demo-8 #particles-js{
@@ -1623,7 +1611,6 @@ footer .small-footer p{
 .demo-9{
 	height: 105vh;
 	clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
-	/* background-image: url(../img/bg9.jpg); */
 }
 
 .demo-9 .button-scroll{
@@ -1660,7 +1647,6 @@ footer .small-footer p{
 	position: relative;
 	background-blend-mode: overlay;
 	background: rgba(0,0,0,.6);
-	/* background-image: url(../img/3.jpg); */
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -1735,7 +1721,6 @@ footer .small-footer p{
 	position: relative;
 	background-blend-mode: overlay;
 	background: rgba(0,0,0,.5);
-	/* background-image: url(../img/2.jpg); */
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -2151,7 +2136,6 @@ footer .small-footer p{
 -------------------------------------------------------- */
 
 .shop-bg{
-	/* background-image: url(../img/shop/bg.jpg); */
 }
 
 .shop-bg .header-overlay{
