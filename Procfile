@@ -1,1 +1,1 @@
-web: gunicorn adulting.wsgi --log-file -
+web: gunicorn personalprofile.wsgi --log-file -
